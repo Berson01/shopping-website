@@ -1,0 +1,26 @@
+ <form [formGroup]="buyForm" (ngSubmit)="confirm()">  
+
+<div  style="margin-top: 8%;  height: 50%; width: 50%; margin-left: 25%; padding-left: 11%; padding-top: 40px; padding-bottom: 50px; border-radius: 10px; color: black; border: 2px solid black;">
+   <h2>Confirm Your Order Here</h2><br><br>
+   <div class="form-group ShippingName">
+   <label >Shipping Name:</label><input type="text" formControlName="ShippingName" required placeholder="name"  style="margin-left: 30px;">
+   </div>
+   <br><br>
+   <label>Shipping Address:</label> <input type="address" formControlName="ShippingAddress" required placeholder="address" style="margin-left: 17px;"><br><br><br>
+   <div formControlName="PaymentMethod">
+   <label >Payment Options:</label><select style="margin-left: 19px;">
+    <option value="">Select Here</option>
+    <option value="">Cash on delivery</option>
+    <option value="">UPI</option>
+    <option value="">Wallet/Postpaid</option>
+    <option value="">Credit/Debit/ATM card</option>
+    <option value="">EMI(Easy Installments)</option>
+   </select>
+</div>
+   <div class="form-group submit-btn ">
+      <input type="submit" class="btn btn-danger" value="Confirm Order" style="margin-right: 130px; margin-top: 30px; color: white;  border: none;"> 
+
+      <button (click)="cancel()" type="button" class="btn btn-danger" routerLink="/cancel" style="margin-right: 130px; margin-top: 30px;">Cancel</button> 
+  </div>  
+</div>
+</form> 

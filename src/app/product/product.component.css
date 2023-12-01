@@ -1,0 +1,111 @@
+ /* content */
+
+
+
+ .content{
+    
+    margin-top: 80px;
+    display: flex;
+    gap: 30px;
+    /* margin-left: 200px; */
+    justify-content: center;
+    text-align: center;
+    transition: transform .4s ease-out;
+    
+ }
+
+ .second{
+   margin-top: 50px;
+   display: flex;
+   gap: 30px;
+   justify-content: center;
+   text-align: center;
+   margin-right: 40px;
+   transition: transform .4s ease-out;
+   
+ }
+
+ .content .card:hover{
+
+   background-color: rgba(0, 0, 0, 0.49);
+   color:white;
+   transition: .5s;
+   transform: scale(1);
+   top: 5px;
+   border: 5px solid black;
+   
+   
+   
+   
+ }
+
+ .second .card:hover{
+
+   background-color: rgba(0, 0, 0, 0.49);
+   color:white;
+   transition: .5s;
+   transform: scale(1);
+   border: 5px solid black;
+   
+ }
+
+ .third .card:hover{
+
+   background-color: rgba(0, 0, 0, 0.49);
+   color:white;
+   transition: .5s;
+   transform: scale(1);
+   border: 5px solid black;
+   
+ }
+
+ /* .content .card img {
+  height: 200px;
+  width: 311px;
+ max-width: 311px;
+ 
+ }
+ .second .card img {
+  height: 200px;
+  width: 311px;
+ 
+ }
+ .third.card img {
+  height: 200px;
+  width: 311px;
+ 
+ } */
+
+
+
+ .arrow{
+   /* position: absolute; */
+   position: sticky;
+   top: 5px;
+   color: black !important;
+   justify-content: right;
+   /* background-color: yellowgreen; */
+   margin-left: 92%;
+   margin-right: 50px;
+   
+  
+ }
+
+ .third{
+   margin-top: 50px;
+   display: flex;
+   gap: 30px;
+   justify-content: center;
+   text-align: center;
+   margin-right: 40px;
+   margin-bottom: 30px;
+
+ }
+
+
+ /* delete */
+
+
+ 
+ 
+

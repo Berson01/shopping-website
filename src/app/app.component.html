@@ -1,0 +1,81 @@
+
+ 
+ 
+ 
+
+<!-- navbar -->
+
+ 
+<nav class="navbar navbar-expand-lg bg-body-tertiary  fixed-top ">
+  <div class="container-fluid" style="background-color: black;">
+    <h1 class="navbar-brand" href="#" style="color: white; margin-left: 20px; margin-top: 10px; ">MobileWorld</h1>
+      
+    
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0" style="gap: 30px;">
+        <li class="nav-item"  >
+          <a class="nav-link active" aria-current="page" routerLink="/home"  style="color: white;">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLink="/contact"  style="color: white;">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLink="/mobiles"  style="color: white;">Product</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLink=""  style="color: white;">Services</a>
+        </li>
+        
+        
+        
+        
+      </ul>
+
+       <!-- add to cart -->
+       <a routerLink="/ " >
+        <form class="d-flex" role="search">
+          <button    class="btn btn-outline-dark "  type="login" style="border: none; border-radius: 30px;margin-left: 20px;" >
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16" style="color: white;" >
+              <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+            </svg>
+      </button>
+        </form>
+      </a>
+      
+       <!-- user icon -->
+      <a routerLink="/click" >
+        <form class="d-flex" role="search">
+        
+          <button    class="btn btn-outline-dark "  type="login" style="border: none; border-radius: 30px;margin-left: 20px;" >
+          <svg xmlns="http://www.w3.org/2000/svg"  color="black"width="30" height="30" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16"  style="color: white;">
+          <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+          <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+        </svg>
+      </button>
+       
+        </form>
+      </a>
+      
+
+      
+
+    
+    </div>
+  </div>
+</nav>
+
+
+
+
+
+<router-outlet></router-outlet>
+
+
+
+
+
+
